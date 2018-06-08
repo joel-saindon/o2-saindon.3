@@ -1,0 +1,24 @@
+Joel Saindon
+CS 4760, Proj 3
+Message Queues
+
+Files that should be in this directory:
+	-main.c
+	-oss.c
+	-user.c
+	-info.h
+	-Makefile
+	-hidden .git directory
+	-this README
+
+Getting started: Type the command: make proj3
+	Files should compile and you should be left with 3 executables in the directory: proj3, oss, and user.
+
+Running proj3: please type the options in the order you see here: ./proj3 -s x -t z -l filename
+	I ran into some trouble getting the optarg to work with global variables and forked items so the argvs are hardcoded in array positions
+
+Things not implemented in this project:
+	-Logging
+	-Shared memory message queue
+	-Starting more processes on after other children have finished executing
+	-Timeout on alarm/signal handling to clean up memory
